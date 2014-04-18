@@ -16,6 +16,11 @@
     height: 300px;
     width: 600px;
   }
+
+    /* Turn the x-axis line back on for scatter charts, so they look better */
+  .nv-scatterChart .nv-axis.nv-x path.domain {
+    stroke-opacity: 0.75;
+  }
 </style>
 
 X Axis: <input type="checkbox" id="xAxisIncludeZero">Include Zero
